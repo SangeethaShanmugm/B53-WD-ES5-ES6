@@ -68,7 +68,7 @@ const multi = [2, 4, 6, 8, 1, 2]
 multiple(...multi) //48
 
 function displayInfo(name, age, ...hobbies) {
-    console.log(`Name: ${name}, Age: ${age}`)
+    console.log(`Name: ${name}, Age: ${age}`) 
     console.log(`Hobbies: ${hobbies.join(", ")}`)
 }
 
